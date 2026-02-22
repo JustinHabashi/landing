@@ -1,0 +1,68 @@
+import type { Project } from "../types";
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: "Project One",
+    summary: "Replace with your first featured project and a one-line value statement.",
+    href: "https://github.com/justinhabashi",
+    tech: ["React", "TypeScript"],
+    status: "Planned",
+  },
+  {
+    id: 2,
+    title: "Project Two",
+    summary: "A placeholder tile ready for a live demo link or GitHub repository.",
+    href: "https://github.com/justinhabashi",
+    tech: ["Node.js", "API"],
+    status: "Planned",
+  },
+  {
+    id: 3,
+    title: "Project Three",
+    summary: "Use this slot for something security-related or infrastructure-focused.",
+    href: "https://github.com/justinhabashi",
+    tech: ["Security", "Automation"],
+    status: "Planned",
+  },
+  {
+    id: 4,
+    title: "Project Four",
+    summary: "A portfolio tile can point to a repo, live site, write-up, or case study.",
+    href: "https://github.com/justinhabashi",
+    tech: ["Frontend", "UX"],
+    status: "Planned",
+  },
+  {
+    id: 5,
+    title: "Project Five",
+    summary: "Highlight a project that demonstrates backend design or data modeling.",
+    href: "https://github.com/justinhabashi",
+    tech: ["Backend", "Database"],
+    status: "Planned",
+  },
+  {
+    id: 6,
+    title: "Project Six",
+    summary: "A good place for an AI experiment, CLI tool, or workflow automation project.",
+    href: "https://github.com/justinhabashi",
+    tech: ["Python", "AI"],
+    status: "Planned",
+  },
+  {
+    id: 7,
+    title: "Project Seven",
+    summary: "This tile can link to a polished app or a technical blog post with code.",
+    href: "https://github.com/justinhabashi",
+    tech: ["Web", "Architecture"],
+    status: "Planned",
+  },
+  {
+    id: 8,
+    title: "Project Eight",
+    summary: "Reserve one tile for your current favorite project or newest experiment.",
+    href: "https://github.com/justinhabashi",
+    tech: ["Experimental", "Learning"],
+    status: "Planned",
+  },
+];
